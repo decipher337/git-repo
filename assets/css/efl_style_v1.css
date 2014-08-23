@@ -1,0 +1,755 @@
+/************** EFL styles *************/
+#footer p, #footer address, #footer-policy-section {
+	color: #808080;
+	font-size: 10px;
+}
+
+#footer-policy-section {
+	margin-top: 70px;
+}
+
+#footer .footer-copywrite address {
+	margin: 0;
+	padding: 0;
+}
+
+#header {
+	padding: 5px 0;
+	border-color: #C43434;
+	background-color: #CE1D1D;
+}
+
+.efl-login-drop-content {
+	display: inline-block;
+	margin-left: 8px;
+}
+
+.efl-logo-login {
+	height: 16px;
+	color: #fff;
+	font-style: italic;
+	font-size: 10px;
+}
+
+/*Freight quote page & forms*/
+.section {
+	margin-bottom: 40px;
+}
+
+.sidebar {
+	padding-top: 25px;
+}
+
+.popover-content, .alert, .form-control, .modal-content, .panel, .well {
+	border-radius: 0;
+}
+
+.radiocheck-wrap {
+	display: inline-block;
+	margin-right: 40px;
+}
+
+	.radiocheck-wrap .checkbox-inline, .radiocheck-wrap .radio-inline {
+		margin-right: 0;
+	}
+
+	.radiocheck-wrap .popover-assigned {
+		margin-left: 5px;
+		vertical-align: middle;
+		cursor: pointer;
+	}
+
+.popover-assigned {
+	cursor: pointer;
+}
+
+
+/************************ freight quote table styles ****************************************/
+#tblQuoteData > thead > tr > th, #tblQuoteData > tbody > tr > td {
+	padding: 2px;
+}
+
+#tblQuoteData .input-xs {
+	padding: 1px 1px;
+}
+
+#tblQuoteData .inpCommodity {
+	width: 160px;
+}
+
+#tblQuoteData .inpWeight {
+	width: 42px;
+}
+
+#tblQuoteData .selWeightUnit {
+	width: 42px;
+}
+
+#tblQuoteData .inpLWH {
+	width: 48px;
+}
+
+#tblQuoteData .selFC {
+	width: 53px;
+}
+
+#tblQuoteData .selUnit {
+	width: 51px;
+}
+
+#tblQuoteData .selPT {
+	width: 105px;
+}
+
+#tblQuoteData .inpPC {
+	width: 35px;
+}
+
+#tblQuoteData .btnDelete {
+	height: 25px;
+}
+
+.optionalTableCells {
+	margin-right: 68px;
+	width: 55%;
+	border-top: #ccc solid 1px;
+}
+
+.input-xs {
+	padding: 5px 10px;
+	height: 25px;
+	border-radius: 3px;
+	font-size: 12px;
+	line-height: 1.5;
+}
+
+#tblQuoteData select {
+	display: inline-block;
+	padding: 1px;
+	height: 25px;
+	border: 1px solid #CCCCCC;
+	color: #555555;
+	line-height: 1.5px;
+}
+
+#tblQuoteData td.has-error:focus {
+border-color: #843534;
+outline: 0;
+-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px #843534;
+box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px #843534;
+
+}
+
+/****************  auto complete styles  **********************/
+.ui-autocomplete {
+	overflow-x: hidden;
+	overflow-y: auto;
+	max-height: 200px;
+}
+
+html .ui-autocomplete {
+	height: 200px;
+}
+
+.ui-menu {
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 2px;
+	list-style: none;
+}
+
+	.ui-menu .ui-menu-item a {
+		display: block;
+		padding: .2em .4em;
+		text-decoration: none;
+		line-height: 1.5;
+		zoom: 1;
+	}
+
+	.ui-menu .ui-menu-item :hover {
+		background-color: rgb(128, 128, 128);
+		color: #ffffff;
+	}
+
+.ui-helper-hidden-accessible {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px);
+	clip: rect(1px,1px,1px,1px);
+}
+
+.ui-widget {
+	font-size: 11px;
+	font-family: "Open Sans", Helvetica Neue, Helvetica, sans-serif, Arial;
+}
+
+.ui-widget-content {
+	border: 1px solid #aaaaaa;
+	background: #ffffff url(images/ui-bg_flat_75_ffffff_40x100.png) 50% 50% repeat-x;
+	color: #222222;
+}
+
+	.ui-widget-content a {
+		color: #222222;
+		cursor: pointer;
+	}
+
+.ui-widget :active {
+	outline: none;
+}
+
+.body-content {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.ribbon-link {
+	margin-left: 12px;
+}
+
+.efl-login-drop-content {
+	display: inline-block;
+	margin-left: 8px;
+}
+
+.efl-logo-login {
+	height: 12px;
+	color: #fff;
+	font-style: italic;
+	font-size: 10px;
+}
+
+.btn-danger {
+	border-color: #ac2925;
+	background-color: #d2322d;
+	color: #ffffff;
+}
+
+	.btn-danger:hover, .btn-danger:focus, .btn-danger:active,
+	.btn-danger.active, .open .dropdown-toggle.btn-danger {
+		border-color: #d43f3a;
+		background-color: #d9534f;
+		color: #ffffff;
+	}
+
+
+.glyphicon:empty {
+	margin-right: 5px;
+}
+
+.page-header {
+	margin: 0 0 20px;
+	padding-bottom: 2px;
+}
+
+ul.nav li.dropdown:hover ul.dropdown-menu {
+	display: block;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+	.body-content {
+		padding: 0;
+	}
+	.nav-tabs.nav-justified > li > a {
+		border-radius:0;
+	}
+}
+.nav-tabs.nav-justified > li > a{
+	border-radius:0;
+}
+.nav-tabs > li > a {
+	border-radius:0;
+}
+
+.thumbnail a:hover {
+	background-color: #333333;
+	text-decoration: none;
+	opacity: 0.8;
+}
+
+.carousel-caption h3 a:hover {
+	text-decoration: none;
+}
+
+.close:hover, .close:focus {
+	text-decoration: none;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	cursor: pointer;
+}
+
+a.list-group-item.selected, a.list-group-item.selected:hover, a.list-group-item.selected:focus {
+	z-index: 2;
+	padding-left: 11px;
+	border-left: 4px solid #d9534f;
+	background-color: #333333;
+	color: #fff;
+	text-decoration: none;
+}
+
+.ltl-guide h1 a:hover, .ltl-guide h2 a:hover, .haz-guide h1 a:hover, .haz-guide h2 a:hover {
+	text-decoration: none;
+}
+
+/****************************************  TABLE STYLES - DEFAULT  ******************************************/
+.table-default {
+	margin: 20px 0;
+	font-size: 12px;
+}
+
+/************************** FOOTER STYLES  italic 400 20px Ubuntu,Open Sans *********************************/
+.title-vision {
+	margin: 10px 0;
+	color: #dddddd;
+	text-align: center;
+	font: italic 300 20px Ubuntu,Open Sans;
+}
+
+	.title-vision a {
+		color: inherit;
+		text-decoration: none;
+	}
+
+footer {
+	border-color: #e7e7e7;
+	background-color: #3b3b3b;
+	font-size: 95%;
+}
+
+	footer p {
+		color: #fff;
+	}
+
+	footer address {
+		padding-top: 20px;
+		color: #fff;
+	}
+
+.footer-top {
+	background-color: #222;
+}
+
+.bottom-nav-links ul {
+	display: inline;
+}
+
+.bottom-nav-links li {
+	float: left;
+	list-style: none;
+}
+
+	.bottom-nav-links li a {
+		display: block;
+		padding: 0 20px;
+		color: #fff;
+		font-size: 12px;
+	}
+
+		.bottom-nav-links li a:hover {
+			text-decoration: none;
+		}
+
+dt, strong {
+	font-weight: 700;
+}
+
+.panel-heading {
+	padding: 10px 15px;
+	border-bottom: 1px solid transparent;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+.active-login {
+	display: inline-block;
+}
+
+.active-track {
+	display: inline-block;
+}
+
+#track-dropdown p, #track-dropdown a, #login-dropdown p, #login-dropdown a {
+	margin: 10px 0;
+}
+
+#track-dropdown {
+	position: absolute;
+	z-index: 5;
+	display: none;
+	min-width: 240px;
+	min-height: 200px;
+	border-color: #080808;
+	background-color: #222;
+	-webkit-box-shadow: 0 1px 2px #666666;
+	box-shadow: 0 1px 2px #666666;
+}
+
+#login-dropdown {
+	position: absolute;
+	z-index: 5;
+	display: none;
+	min-width: 240px;
+	min-height: 200px;
+	border-color: #080808;
+	background-color: #222;
+	-webkit-box-shadow: 0 1px 2px #666666;
+	box-shadow: 0 1px 2px #666666;
+}
+
+	#login-dropdown label, #login-dropdown p {
+		color: #fff;
+	}
+
+#session-login {
+	display: inline-block;
+	height: 20px;
+	vertical-align: top;
+	white-space: nowrap;
+	cursor: pointer;
+}
+
+#session-track {
+	display: inline-block;
+	height: 20px;
+	vertical-align: top;
+	white-space: nowrap;
+	cursor: pointer;
+}
+
+.top-bar-nav a:hover {
+	text-decoration: none;
+}
+
+.trackWidgetWrap p, .trackWidgetWrap label {
+	color: #e1e1e1;
+}
+
+#track-link {
+	color: #fff;
+}
+
+#login-link {
+	color: #fff;
+}
+
+#support-link{
+	color: #fff;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+	margin-bottom: -1px;
+	padding-bottom: 12px;
+	border-bottom: 4px solid #d2322d;
+}
+
+a.list-group-item:hover, a.list-group-item:focus {
+	padding-left: 11px;
+	border-left: 4px solid red;
+}
+
+.navbar {
+	margin-bottom: 0;
+	padding-top: 15px;
+	border-radius: 0;
+}
+
+.nav-ribbon .nav > li > a:hover, .nav-ribbon .nav > li > a:focus {
+	background-color: #fff;
+}
+
+ul.nav li.dropdown:hover ul.dropdown-menu {
+	display: block;
+}
+
+/****************************** GLOBAL STYLES ********************************/
+.btn {
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	border-radius: 0;
+}
+
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-weight: 400;
+	font-family: "Oswald", Helvetica Neue, sans-serif, Arial;
+}
+
+p.lead {
+	font-weight: 300;
+	font-family: "Open Sans Condensed", sans-serif;
+}
+
+body {
+	background-color: #ffffff;
+	color: #333333;
+	font-family: "Open Sans", Helvetica Neue, Helvetica, sans-serif, Arial;
+	line-height: 1.5;
+}
+
+.body-content {
+	padding-top: 5px;
+	padding-bottom: 50px;
+}
+
+.input-group-addon{
+	border-top-left-radius:0;
+	border-bottom-left-radius:0;
+}
+
+@media (max-width: 767px) {
+	.navbar {
+		padding-top: 0;
+	}
+}
+
+.mt-20 {
+	margin-top:20px;
+}
+
+.mt-30 {
+	margin-top: 30px;
+}
+
+.mb-10 {
+	margin-bottom: 10px;
+}
+
+.mb-20 {
+	margin-bottom:20px;
+}
+
+.mb-40 {
+	margin-bottom:40px;
+}
+
+.mb-50 {
+	margin-bottom:50px;
+}
+
+.mtb-20 {
+	margin: 20px 0;
+}
+
+.mtb-10 {
+	margin: 10px 0;
+}
+
+.mtb-05 {
+	margin: 5px 0;
+}
+
+.ml-10{
+	margin-left:10px;
+}
+
+.mr-10{
+	margin-right:10px;
+}
+
+input#tbDeclaredValue {
+	width: 70px;
+}
+
+.errorInput {
+	margin-top: 5px;
+	margin-bottom: 1px;
+	color: #a94442;
+	font-size: 95%;
+}
+
+.panel-group .panel-heading + .panel-collapse .panel-body {
+	border-top: 0 solid #ddd;
+}
+
+.panel-heading a {
+	text-decoration: none;
+	color:#333;
+}
+
+.panel-heading a:hover {
+	text-decoration: none;
+	color:#333;
+}
+
+.panel-heading a:visited {
+	color:#333;
+}
+
+.wellClean {
+	height: 30px;
+	padding: 3px;
+	margin-bottom: 20px;
+	background-color: #f5f5f5;
+	border: 1px solid #e3e3e3;
+}
+
+.wellCleanLg {
+	height: 42px;
+	padding: 3px;
+	margin-bottom: 20px;
+	background-color: #f5f5f5;
+	border: 1px solid #e3e3e3;
+}
+
+.wc-55 {
+	height: 55px;
+	padding: 6px;
+	margin-bottom: 20px;
+	background-color: #f5f5f5;
+	border: 1px solid #e3e3e3;
+}
+
+.font-90p{
+	font-size:90%;
+}
+
+.ubuntu-font {
+	font: italic 300 Ubuntu,Open Sans;
+}
+
+#session-login a {color:#fff;}
+
+/* tracking page */
+#OrgDes table {width:100% !important;}
+		#OrgDes table > tr > td { padding: 8px; line-height: 1.42857143; vertical-align: top; }
+		#OrgDes .well {min-height: 150px;}
+		#gvPS  > tbody > tr > td, #fvDetail > tbody > tr > td {
+			padding: 8px;
+			line-height: 1.42857143;
+			vertical-align: top;
+			border-top: 0 none;
+		}
+		.wrapper { margin-bottom:30px; }
+		.wrapper h3 { margin-top:0; }
+.form-group-jqv{ min-height:60px; }
+.error{ font-size: 12px; color:#a94442; }
+
+hr.soften { height: 1px; background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0)); background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0)); background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0)); background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0)); border: 0; }
+
+/** freight quote results **/
+.rateview-vertical {
+	margin-top:6px;
+	padding-top:6px;
+	margin-bottom:20px;
+	border-top: 1px solid #ccc;
+}
+
+.rateQuoteBlock h3 {
+	margin-top:3px;
+	font-size:21px;
+}
+
+.routeMapTmb {
+	height:100px;
+}
+
+.panel-title {
+	font-size: 18px;
+}
+
+.btn-sm, .btn-group-sm > .btn {
+	border-radius: 0;
+}
+
+.btn-sm, .btn-group-xs > .btn {
+	border-radius: 0;
+}
+
+.rate-title :hover {cursor:pointer;}
+
+.rate-title {
+	width:275px;
+	float:left;
+}
+
+.rate-body{display:none;}
+
+.fqr-view {
+    
+	margin-right:-15px;
+	margin-left:-15px;
+}
+
+.fqr-view-topscroll, .fqr-view {
+    overflow-x: scroll;
+    width: 785px;
+	
+}
+
+.fqr-view-topscroll {
+	height: 16px;
+}
+
+.scroll-div1 { 
+    width:1600px; 
+    overflow-x: scroll;
+}
+
+.scroll-div2 { 
+    width: 1600px; 
+    height:16px;
+}
+
+
+.col-4-fixed {
+	width:400px;
+	position:relative;
+	padding-right:15px;
+	padding-left:15px;
+	min-height:1px;
+	float:left;
+}
+
+.panel-quote .panel-body {
+	padding-top:8px;
+	padding-bottom:2px;
+}
+
+.panel-quote .panel-heading {
+	margin-bottom: 2px;
+}
+
+.panel-quote .panel-body .list li  {
+	padding-bottom:6px;
+	margin-bottom:12px;
+}
+
+.panel-quote .panel-body .list li.separator  {
+	border-bottom:solid 1px #f5f5f5;
+}
+
+.panel-quote .panel-body .list li.separator:last-child  {
+	border-bottom:none 0;
+	padding-bottom:0;
+	margin-bottom:0;
+}
+
+.panel-quote li.separator div.spriteLogo {
+	margin:0;
+}
+
+.panel-quote li.separator div.logo19361 {
+	width: 185px;
+}
+
+.panel-quote li.separator div.logo20660 {
+	width: 160px;
+}
+
+.tis-container{
+	display:none;
+}
+
+.tis-trigger{
+	cursor:pointer;
+}
+
+#cphBody_divComment .panel-body p {
+	font-size:12px;
+}
+/************************** MY GLYPHICONS **********************************/
+.glyphicon-dots { background-image: url(//efreightline-static.com/assets/img/icon-dots.png); height: 20px; width: 20px; margin-left:10px; }
